@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingBottom="8dp">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_marginTop="8dp"
+		android:drawableLeft="@drawable/ic_playlist_play"
+		android:drawableStart="@drawable/ic_playlist_play"
+		android:text="Playlist"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		style="@style/ActionItem"/>
+
+	<TextView
+		android:id="@+id/textView2"
+		android:drawableLeft="@drawable/ic_trending_up"
+		android:drawableStart="@drawable/ic_trending_up"
+		android:text="Populer"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView"
+		style="@style/ActionItem"/>
+
+	<TextView
+		android:id="@+id/textView3"
+		android:drawableLeft="@drawable/ic_bookmark"
+		android:drawableStart="@drawable/ic_bookmark"
+		android:text="Bookmark"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView2"
+		style="@style/ActionItem"/>
+
+	<TextView
+		android:id="@+id/textView4"
+		android:drawableLeft="@drawable/ic_history"
+		android:drawableStart="@drawable/ic_history"
+		android:text="History"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3"
+		style="@style/ActionItem"/>
+
+</android.support.constraint.ConstraintLayout>
+
